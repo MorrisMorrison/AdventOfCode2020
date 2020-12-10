@@ -13,7 +13,7 @@ namespace AdventOfCode2020.Star1
         }
         
         public int FindShit(){
-            int[] n =  File.ReadAllLines("Star1/Input.txt").Select(i => int.Parse(i)).ToArray();
+            int[] n =  File.ReadAllLines("Star1/input.txt").Select(i => int.Parse(i)).ToArray();
             // find the 2 entries that add up to 2020
             // (int, int) p = FindCandidatesDouble(n);
             // if (p.Item1 != 0 && p.Item2 != 0) return p.Item1 * p.Item2;
